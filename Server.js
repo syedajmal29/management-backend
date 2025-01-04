@@ -23,7 +23,7 @@ app.use("/auth", auth);
 
 // Health check route
 app.get("/", (req, res) => {
-  res.json({ message: "API is Working" });
+  res.json({ message: "API is Working" })
 });
 
 // Start server
